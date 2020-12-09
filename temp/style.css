@@ -1,6 +1,12 @@
+body{
+    margin:50px 0px 0px 0px;
+    z-index: 0;
+}
+
 .jumbotron{
     background-color: purple;
     color: floralwhite;
+    margin-bottom: 0rem !important;
 }
 .row-content{
     padding: 50px 0px 50px 0px;
