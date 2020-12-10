@@ -1,0 +1,8 @@
+body{
+    margin-top:50px;
+    z-index: 0;
+}
+.jumbotron{
+    background-color: purple;
+    color: floralwhite;
+}
