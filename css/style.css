@@ -7,7 +7,7 @@ html{
 }
 
 .jumbotron{
-    background-color: purple;
+    background-color: rgb(43, 2, 34);
     color: floralwhite;
     padding: 70px 30px 70px 30px;
     margin-bottom: 0rem;
@@ -28,20 +28,24 @@ html{
 .fa-home, .fa-info, .fa-list, .fa-address-card{
     color:purple !important;
 }
+.navbar{
+    background-color: rgb(66, 8, 66);
+}
 .navbar-nav .nav-link{
-    color: #000;
-    font-weight: 500;;
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
 }
 .navbar-nav .active{
     color:#fff;
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color:purple;
+    color:rgb(221, 185, 213);
 }
 .card-header h3 a{
     text-decoration: none;
     cursor: pointer;
-    color:#000
+    color:#000;
 }
 h2{
     color:purple;
