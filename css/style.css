@@ -25,11 +25,26 @@ html{
 .footer{
     background-color: #dfcadf;
 }
-.tab-content{
-    padding:20px;
-    border-left: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
+.fa-home, .fa-info, .fa-list, .fa-address-card{
+    color:purple !important;
+}
+.navbar-nav .nav-link{
+    color: #000;
+    font-weight: 500;;
+}
+.navbar-nav .active{
+    color:#fff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:purple;
+}
+.card-header h3 a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#000
+}
+h2{
+    color:purple;
 }
 
 @media screen and (min-width:360px) and (max-width:575px){
