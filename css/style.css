@@ -1,90 +1,89 @@
-body{
-    margin:50px 0px 0px 0px;
-    z-index: 0;
-}
-html{
-    scroll-behavior: smooth;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
-.jumbotron{
-    background-color: rgb(43, 2, 34);
-    color: floralwhite;
-    padding: 70px 30px 70px 30px;
-    margin-bottom: 0rem;
-}
-.address{
-    font-size:80%;
-    columns: #fff;
-    margin:0px;
-}
-.row-content{
-    padding: 40px 0px 40px 0px;
-    min-height: 300px;
-    border-bottom:1px ridge;
-}
-.footer{
-    background-color: #dfcadf;
-}
-.fa-home, .fa-info, .fa-list, .fa-address-card{
-    color:purple !important;
-}
-.navbar{
-    background-color: rgb(66, 8, 66);
-}
-.navbar-nav .nav-link{
-    color: gray;
-    font-weight: 500;
-    cursor: pointer;
-}
-.navbar-nav .active{
-    color:#fff;
-}
-.navbar-nav .nav-item .nav-link:hover{
-    color:rgb(221, 185, 213);
-}
-.card-header h3 a{
-    text-decoration: none;
-    cursor: pointer;
-    color:#000;
-}
-.table-head{
-    background-color: purple;
-    color: floralwhite;
-}
-.carousel-caption{
-    background-color: #000;
-    opacity: 0.8;
-}
-.test{
-    z-index: 999;
-}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 300px; }
+
+.footer {
+  background-color: #dfcadf;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #2b0222;
+  color: floralwhite; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.card-header h3 a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000; }
+
+.navbar-dark {
+  background-color: #420842; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.navbar-nav .nav-item .nav-link {
+  color: gray;
+  font-weight: 500;
+  cursor: pointer; }
+
+.navbar-nav .nav-item .active {
+  color: #fff; }
+
+.nav-link:hover {
+  color: #ddb9d5; }
+
 .carousel {
-    background:#512DA8;
-}
-
-.carousel-item {
-  height: 300px;
-}
-
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
-h2{
-    color:purple;
-}
+  background: #420842; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+    .carousel .carousel-item .carousel-caption {
+      background-color: #000;
+      opacity: 0.8; }
 
 #carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 2;
-}
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
 
-@media screen and (min-width:360px) and (max-width:575px){
-    .row-content{
-        padding: 15px 0px 30px 0px;
-    }
-}
+.fa-home, .fa-info, .fa-list, .fa-address-card, h2 {
+  color: purple !important; }
+
+.modal .modal-header {
+  background: #420842;
+  color: floralwhite; }
+  .modal .modal-header .close {
+    color: floralwhite !important; }
+
+.modal .modal-body {
+  background: #dfcadf; }
+
+@media screen and (min-width: 360px) and (max-width: 575px) {
+  .row-content {
+    padding: 15px 0px 30px 0px; } }
