@@ -4,19 +4,22 @@
   "description": "This is a first project demo using node js",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "sass": "node-sass -o css/ css/"
+    "sass": "node-sass -o css/ css/",
+    "watch:sass": "onchange \"css/*.scss\" -- npm run sass",
+    "watch:all": "parallelshell \"npm run watch:sass\" \"npm run lite\""
   },
   "author": "Shawon Shariff",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1",
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.2"
   },
   "dependencies": {
-    "bootstrap-social": "^5.1.1",
-    "scss": "^0.2.4"
+    "bootstrap-social": "^5.1.1"
   }
 }
